@@ -64,7 +64,7 @@ const Header = () => {
                 <a href="#">회사소개</a>
               </li>
               <li>
-                <a href="#">사업영역</a>
+                <a href="/home-sub">사업영역</a>
               </li>
               <li>
                 <a href="#">3D Design</a>
