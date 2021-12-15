@@ -74,8 +74,11 @@ const BannerMenu = () => {
       <Container>
         <div>
           <p>서비스 바로가기</p>
-          <img src="http://ensoleng.co.kr/images/main/btn_pq.png" />
-          <img src="http://ensoleng.co.kr/images/main/btn_broshure.png" />
+          <img src="http://ensoleng.co.kr/images/main/btn_pq.png" alt="" />
+          <img
+            src="http://ensoleng.co.kr/images/main/btn_broshure.png"
+            alt=""
+          />
         </div>
       </Container>
     </ContainerFather>

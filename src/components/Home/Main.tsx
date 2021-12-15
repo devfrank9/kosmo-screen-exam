@@ -10,7 +10,7 @@ const BannerContainer = styled.div`
 const Main = () => {
   return (
     <BannerContainer>
-      <img src="http://ensoleng.co.kr/images/main/visual1.jpg" />
+      <img src="http://ensoleng.co.kr/images/main/visual1.jpg" alt="" />
     </BannerContainer>
   );
 };

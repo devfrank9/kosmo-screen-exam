@@ -1,3 +1,11 @@
-import styled from "styled-components";
-import { Link } from "react-router-dom";
-import { useState, useEffect } from "react";
+import Header from "../components/Shop/Header";
+
+const Shop = () => {
+  return (
+    <>
+      <Header></Header>
+    </>
+  );
+};
+
+export default Shop;

@@ -53,7 +53,7 @@ const Header = () => {
         <>
           <Logo>
             <a href="/">
-              <img src="http://ensoleng.co.kr/images/common/logo.png" />
+              <img src="http://ensoleng.co.kr/images/common/logo.png" alt="" />
             </a>
           </Logo>
         </>
@@ -61,22 +61,22 @@ const Header = () => {
           <Menu>
             <ul>
               <li>
-                <a href="#">회사소개</a>
+                <a href="/shop">쇼핑몰</a>
               </li>
               <li>
                 <a href="/home-sub">사업영역</a>
               </li>
               <li>
-                <a href="#">3D Design</a>
+                <a href="/">3D Design</a>
               </li>
               <li>
-                <a href="#">설계품질관리시스템</a>
+                <a href="/">설계품질관리시스템</a>
               </li>
               <li>
-                <a href="#">주요실적</a>
+                <a href="/">주요실적</a>
               </li>
               <li>
-                <a href="#">홍보센터</a>
+                <a href="/">홍보센터</a>
               </li>
             </ul>
           </Menu>
@@ -85,7 +85,7 @@ const Header = () => {
       <SideMenu>
         <Inform>
           <li id="SubInform" onMouseEnter={Header}>
-            <a href="#">인사말</a>
+            <a href="/">인사말</a>
           </li>
         </Inform>
       </SideMenu>

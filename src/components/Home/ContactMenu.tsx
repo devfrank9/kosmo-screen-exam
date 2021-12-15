@@ -52,7 +52,7 @@ const ContactMenu = () => {
       <Menu>
         <H1>Contact Us</H1>
         <H2>
-          <img src="http://ensoleng.co.kr/images/main/tel.png" />
+          <img src="http://ensoleng.co.kr/images/main/tel.png" alt="" />
           02-2624-8716
         </H2>
       </Menu>
