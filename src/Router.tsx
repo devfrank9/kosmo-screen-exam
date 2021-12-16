@@ -7,15 +7,14 @@ function Router() {
   return (
     <BrowserRouter>
       <Switch>
-        <Route path="/">
-          <Home />
-        </Route>
         <Route path="/home-sub">
           <HomeSub />
         </Route>
-
         <Route path="/shop">
           <Shop />
+        </Route>
+        <Route path="/">
+          <Home />
         </Route>
       </Switch>
     </BrowserRouter>
