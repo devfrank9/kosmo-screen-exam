@@ -23,6 +23,10 @@ const FirstContainer = styled.div`
     display: inline-block;
     font-size: 20px;
     color: blue;
+    &:hover {
+      opacity: 0.3;
+      text-decoration: underline;
+    }
   }
 `;
 
@@ -67,12 +71,74 @@ const SecondTextArray = styled.div`
     display: inline-block;
     position: relative;
     color: blue;
+    &:hover {
+      opacity: 0.3;
+      text-decoration: underline;
+    }
   }
 `;
 
 const MainContainer = styled.div`
   display: flex;
   flex-direction: column;
+`;
+
+const ThirdContainer = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+`;
+
+const ThirdPartial = styled.div`
+  display: block;
+  width: 50vw;
+  img {
+    width: 50vw;
+  }
+`;
+
+const FirstDivision = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  margin-left: 280px;
+  margin-top: 125px;
+  color: white;
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 10px;
+    color: pink;
+  }
+  p {
+    font-size: 15px;
+    color: blue;
+  }
+`;
+
+const Division = styled.div`
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  margin-left: 240px;
+  margin-top: 40px;
+  color: black;
+  h1 {
+    font-size: 28px;
+  }
+  h2 {
+    font-size: 18px;
+    margin: 10px;
+    color: black;
+  }
+  p {
+    font-size: 15px;
+    color: blue;
+  }
 `;
 
 const Main = () => {
@@ -119,6 +185,52 @@ const Main = () => {
             />
           </SecondContainer>
         </a>
+        <ThirdContainer>
+          <ThirdPartial>
+            <FirstDivision>
+              <h1>iPhone 13</h1>
+              <h2>일상을 위한 비상한 능력</h2>
+              <p>더 알아보기 &rarr; 구입하기 &rarr;</p>
+            </FirstDivision>
+            <img
+              src="https://www.apple.com/v/home/ai/images/promos/iphone-13/tile_iphone_13__d9w82q7fwceq_large_2x.jpg"
+              alt=""
+            />
+          </ThirdPartial>
+          <ThirdPartial>
+            <Division>
+              <h1>Watch</h1>
+              <h2>이제껏 가장 큰 디스플레이 탑재</h2>
+              <p>더 알아보기 &rarr; 구입하기 &rarr;</p>
+            </Division>
+            <img
+              src="https://www.apple.com/v/home/ai/images/promos/watch-series-7/tile_watch__e9n11b6m6yq2_large_2x.jpg"
+              alt=""
+            />
+          </ThirdPartial>
+          <ThirdPartial>
+            <Division>
+              <h1>Ipad Mini</h1>
+              <h2>메가급 성능. 크기만 미니.</h2>
+              <p>더 알아보기 &rarr; 구입하기 &rarr;</p>
+            </Division>
+            <img
+              src="https://www.apple.com/v/home/ai/images/promos/ipad-mini/promo_ipad_mini__spq4zjcuuaie_large_2x.jpg"
+              alt=""
+            />
+          </ThirdPartial>
+          <ThirdPartial>
+            <Division>
+              <h1>MacBook Pro</h1>
+              <h2>프로다운 막강한 파워</h2>
+              <p>더 알아보기 &rarr; 구입하기 &rarr;</p>
+            </Division>
+            <img
+              src="https://www.apple.com/v/home/ai/images/promos/macbook-pro/tile_macbookpro__cx0ur0qg9biq_large_2x.jpg"
+              alt=""
+            />
+          </ThirdPartial>
+        </ThirdContainer>
       </MainContainer>
     </>
   );

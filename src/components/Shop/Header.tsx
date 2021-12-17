@@ -17,7 +17,11 @@ const Menu = styled.header`
     align-items: center;
     margin-top: 10px;
     li {
+      color: white;
       margin-right: 20px;
+      &:hover {
+        opacity: 0.2;
+      }
     }
   }
 `;
